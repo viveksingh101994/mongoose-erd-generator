@@ -13,7 +13,7 @@
     "mongoose-erd-generator": "./bin/index.js"
   },
   "scripts": {
-    "mongoose-erd-generator": "node ./bin/index.js",
+    "mongoose-erd-generator": "node ./bin/index.js -p ..\\data-model\\dist\\models\\ -o .\\test.svg -f svg",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
